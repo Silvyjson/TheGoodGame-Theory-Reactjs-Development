@@ -1,3 +1,11 @@
+How to Run
+
+Clone the repository: git clone [https://github.com/Silvyjson/Webbuilder-Internship-Assignment.git]
+Navigate to the project directory: cd [project_directory]
+Install dependencies: npm install
+Run the project: npm run dev
+
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
