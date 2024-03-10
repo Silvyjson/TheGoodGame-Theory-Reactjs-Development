@@ -38,9 +38,13 @@ const App = () => {
         className='searchInput'
       />
       <div className='main-container--content'>
-        {filteredBeers.map((beer) => (
-          <Card key={beer.id} beer={beer} />
-        ))}
+        {filteredBeers.length > 0 ? (
+          filteredBeers.map((beer) => (
+            <Card key={beer.id} beer={beer} />
+          ))
+        ) : (
+          <h1>No item found</h1>
+        )}
       </div>
     </div>
   );
