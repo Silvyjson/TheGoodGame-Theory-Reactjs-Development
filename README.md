@@ -1,6 +1,6 @@
 How to Run
 
-Clone the repository: git clone [https://github.com/Silvyjson/Webbuilder-Internship-Assignment.git]
+Clone the repository: git clone [https://github.com/Silvyjson/TheGoodGame-Theory-Reactjs-Development.git]
 Navigate to the project directory: cd [project_directory]
 Install dependencies: npm install
 Run the project: npm run dev
